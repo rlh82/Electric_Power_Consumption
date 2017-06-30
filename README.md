@@ -9,13 +9,13 @@ The scripts in this repository assume that you have downloaded and unzipped the 
 
 The file is quite large, so I've set each script to only import the section of it that we need. 
 
-The variables provided in the dataset are:
-* Date (contains the date of the observation as a character class)
-* Time (contains the time of the observation as a character class)
-* Global_active_power (active power observed as numeric class)
-* Global_reactive_power (reactive power observed as numeric class)
-* Voltage (voltage observed as numeric class)
-* Global_intensity (global intensity observed as numeric class)
-* Sub_metering_1 (sub metering 1 observed as numeric class)
-* Sub_metering_2 (sub metering 2 observed as numeric class)
-* Sub_metering_3 (sub metering 3 observed as numeric class)
+The variables provided by the UTC web site for this dataset are:
+1. Date: Date in format dd/mm/yyyy
+2. Time: time in format hh:mm:ss
+3. Global_active_power: household global minute-averaged active power (in kilowatt)
+4. Global_reactive_power: household global minute-averaged reactive power (in kilowatt)
+5. Voltage: minute-averaged voltage (in volt)
+6. Global_intensity: household global minute-averaged current intensity (in ampere)
+7. Sub_metering_1: energy sub-metering No. 1 (in watt-hour of active energy). It corresponds to the kitchen, containing mainly a dishwasher, an oven and a microwave (hot plates are not electric but gas powered).
+8. Sub_metering_2: energy sub-metering No. 2 (in watt-hour of active energy). It corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light.
+9. Sub_metering_3: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.
