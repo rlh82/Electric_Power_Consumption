@@ -1,4 +1,4 @@
-# Electric_Power_Consumption
+# Electric Power Consumption
 Exploratory Data Analysis - week 1 project
 
 This week's project asks us to take a dataset from the UC Irvine Machine Learning Repository, import that data, subset it, clean it, and create 4 unique graphs from it in .png format.
@@ -8,6 +8,10 @@ The dataset can be found here: https://d396qusza40orc.cloudfront.net/exdata%2Fda
 The scripts in this repository assume that you have downloaded and unzipped the contents of the file at that link in your working directory.
 
 The file is quite large, so I've set each script to only import the section of it that we need. 
+
+Please review each script and look at the correlating image to see teh results.
+
+
 
 The variables provided by the UTC web site for this dataset are:
 1. Date: Date in format dd/mm/yyyy
